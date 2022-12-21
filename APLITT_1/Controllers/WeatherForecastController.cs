@@ -18,6 +18,7 @@ namespace APLITT_1.Controllers
             _logger = logger;
         }
 
+
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
